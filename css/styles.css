@@ -8,7 +8,7 @@
 
 /* reset styles */
 
-h1,h2,h3,p{
+h1,h2,h3,h4,p{
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -43,6 +43,7 @@ img{
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .page-header-container{
   display: flex;
   align-items: center;
@@ -61,6 +62,7 @@ margin-right: 40px;
 .menu{
   display: flex;
   justify-content: space-between;
+  column-gap: 24px;
 }
 
 .top-web-studio{
@@ -77,9 +79,22 @@ margin-right: 40px;
   padding-right: auto;
 }
 
+.conteiner-hero{
+  padding: 192px 0;
+  padding-bottom: 291px;
+  text-align: center;
+}
+.hero{
+  margin: 0 auto;
+  width: 492px;
+ 
+}
+.button{
+  margin-top: 48px;
+}
+
 .hidden-item{
   padding-top: 120px;
-  padding-bottom: 120px;
   justify-content:space-between;
 }
 .title-list{
@@ -91,6 +106,22 @@ margin-right: 40px;
 .paragraf-text{
   width: 264px;
 }
+.title-pages{
+  margin-bottom: 72px;
+  display: flex;
+  justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -119,6 +150,7 @@ body {
 .team-item {
   background-color: var(--brand-color);
 }
+
 /* <!--Site header--> */
 .header-site {
   background-color: var(--brand-color);
@@ -189,7 +221,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .button {
   font-family: Roboto, sans-serif;
