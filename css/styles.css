@@ -89,7 +89,7 @@ margin-right: 40px;
  
 }
 .button{
-  Padding: 16px 32px 16px 32px;
+  padding: 16px 32px 16px 32px;
   border-radius: 4px;
   min-width: 170px;
 }
@@ -97,7 +97,7 @@ margin-right: 40px;
 
 
 .bacground{
-  background-color: #eb8a0bfd;
+  /* background-color: #eb8a0bfd; */
   padding-top: 120px;
 }
 /* .hidden-item{
@@ -117,7 +117,7 @@ margin-right: 40px;
 .progekt-section{
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: brown;
+  /* background-color: brown; */
 }
 .title-pages{
   margin-bottom: 72px;
@@ -127,10 +127,52 @@ margin-right: 40px;
 /* TEAM OUR */
 .team{
   text-align: center;
+
   
 }
 .letter-h2{
+  padding-top: 120px;
   margin-bottom: 72px;
+}
+.team-list{
+  flex-basis: calc((100%-72px)/4);
+}
+.color-team{
+  /* background-color: darkorange; */
+  padding-bottom: 120px;
+}
+.footer-cards{
+  padding-top: 32px;
+}
+.title-list{
+  margin-bottom: 8px;
+}
+/* /TEAM OUR */
+
+/* FOOTER */
+
+.footer-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: flex-start;
+}
+.footer-paragraf{
+  display: inline-block;
+  width: 264px;
+  height: 72px;
+
+}
+.logo-studio{
+  display: block;
+  margin-bottom: 16px;
+}
+/* /FOOTER */
+
+/* PORTFOLIO */
+.btn-portfolio{
+  display: inline-block;
+  
+  padding-top: 96px;
 }
 
 
